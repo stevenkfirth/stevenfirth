@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <id>0</id>
+    <name>Jane</name>
+    <age>40</age>
+    <date_of_birth>1982-01-01</date_of_birth>
+    <homepage>www.example.com/jane</homepage>
+  </row>
+  <row>
+    <id>1</id>
+    <name>John</name>
+    <age>41</age>
+    <date_of_birth>1981-01-01</date_of_birth>
+    <homepage>www.example.com/john</homepage>
+  </row>
+</data>

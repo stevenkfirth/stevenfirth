@@ -1,0 +1,15 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix ex: <http://www.example.com/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:0 dbo:birthDate "1982-01-01"^^xsd:date ;
+    foaf:age 40 ;
+    foaf:homepage "www.example.com/jane"^^xsd:anyURI ;
+    foaf:name "Jane" .
+
+ex:1 dbo:birthDate "1981-01-01"^^xsd:date ;
+    foaf:age 41 ;
+    foaf:homepage "www.example.com/john"^^xsd:anyURI ;
+    foaf:name "John" .
+
