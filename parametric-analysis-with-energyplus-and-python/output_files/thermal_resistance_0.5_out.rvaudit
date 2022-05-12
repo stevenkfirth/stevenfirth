@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_thermal_resistance_0.rvi
+ input file:output_files\thermal_resistance_0.5_out.eso
+ output file:output_files\thermal_resistance_0.5_out.csv
+ getting all vars from:output_files\thermal_resistance_0.5_out.eso
+  number variables requested for output=          36
+ ReadVars Run Time=00hr 00min  0.56sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_thermal_resistance_0.mvi
+ input file:output_files\thermal_resistance_0.5_out.mtr
+ output file:output_files\thermal_resistance_0.5_mtr.csv
+ getting all vars from:output_files\thermal_resistance_0.5_out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.19sec
+ ReadVarsESO program completed successfully.

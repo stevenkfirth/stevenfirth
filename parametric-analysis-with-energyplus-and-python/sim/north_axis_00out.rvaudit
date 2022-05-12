@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_north_axis_0.rvi
+ input file:sim\north_axis_00out.eso
+ output file:sim\north_axis_00out.csv
+ getting all vars from:sim\north_axis_00out.eso
+  number variables requested for output=          36
+ ReadVars Run Time=00hr 00min  0.56sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_north_axis_0.mvi
+ input file:sim\north_axis_00out.mtr
+ output file:sim\north_axis_00mtr.csv
+ getting all vars from:sim\north_axis_00out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.16sec
+ ReadVarsESO program completed successfully.

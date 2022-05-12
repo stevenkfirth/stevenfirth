@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:original_input_file\1ZoneUncontrolled.rvi
+ input file:sim\eplusout.eso
+ output file:sim\eplusout.csv
+ getting all vars from:sim\eplusout.eso
+  number variables requested for output=          36
+ ReadVars Run Time=00hr 00min  0.56sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:original_input_file\1ZoneUncontrolled.mvi
+ input file:sim\eplusout.mtr
+ output file:sim\eplusmtr.csv
+ getting all vars from:sim\eplusout.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.19sec
+ ReadVarsESO program completed successfully.
