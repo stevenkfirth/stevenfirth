@@ -1,0 +1,41 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "countries.csv",
+    "dc:title": "Country data table (source: Example 8 of the 'CSV on the Web: A Primer' Working Group Note).",
+    "dc:description": "This table describes groupings, names and location for different countries",
+    "dc:creator": "The CSV on the Web Working Group https://www.w3.org/2013/csvw/wiki/Main_Page",
+    "tableSchema": {
+      "columns": [
+        {
+          "titles": "country",
+          "@type": "Column"
+        },
+        {
+          "titles": "country group",
+          "@type": "Column"
+        },
+        {
+          "titles": "name (en)",
+          "@type": "Column"
+        },
+        {
+          "titles": "name (fr)",
+          "@type": "Column"
+        },
+        {
+          "titles": "name (de)",
+          "@type": "Column"
+        },
+        {
+          "titles": "latitude",
+          "@type": "Column"
+        },
+        {
+          "titles": "longitude",
+          "@type": "Column"
+        }
+      ],
+      "@type": "Schema"
+    },
+    "@type": "Table"
+  }
