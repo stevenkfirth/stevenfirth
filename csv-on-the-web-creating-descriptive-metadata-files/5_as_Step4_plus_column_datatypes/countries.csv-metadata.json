@@ -8,36 +8,65 @@
       "columns": [{
           "titles": "country",
           "dc:description": "The ISO two-letter code for a country, in lowercase.",
+          "datatype": {
+            "dc:title": "Country Code",
+            "dc:description": "Country codes as specified in ISO 3166.",
+            "base": "string",
+            "format": "[a-z]{2}"
+          },
           "@type": "Column"
         },
         {
           "titles": "country group",
           "dc:description": "A lowercase two-letter code for a group of countries.",
+          "datatype": {
+            "base": "string",
+            "format": "eu|non-eu"
+          },
           "@type": "Column"
         },
         {
           "titles": "name (en)",
           "dc:description": "The official name of the country in English.",
+          "datatype": {
+            "base": "string",
+            "minLength": "3",
+            "maxLength": "128"
+          },
           "@type": "Column"
         },
         {
           "titles": "name (fr)",
           "dc:description": "The official name of the country in French.",
+          "datatype": "string",
           "@type": "Column"
         },
         {
           "titles": "name (de)",
           "dc:description": "The official name of the country in German.",
+          "datatype": "string",
           "@type": "Column"
         },
         {
           "titles": "latitude",
           "dc:description": "The latitude of an indicative point in the country.",
+          "datatype": {
+            "base": "number",
+            "minimum": "-90",
+            "maximum": "90",
+            "format": "#0.000000##"
+          },
           "@type": "Column"
         },
         {
           "titles": "longitude",
           "dc:description": "The longitude of an indicative point in the country.",
+          "datatype": {
+            "base": "number",
+            "minimum": "-90",
+            "maximum": "90",
+            "format": "#0.000000##"
+          },
           "@type": "Column"
         }
       ],
