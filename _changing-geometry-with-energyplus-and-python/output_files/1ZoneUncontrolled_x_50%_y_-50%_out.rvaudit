@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_x_50%_y_-50%.rvi
+ input file:output_files\1ZoneUncontrolled_x_50%_y_-50%_out.eso
+ output file:output_files\1ZoneUncontrolled_x_50%_y_-50%_out.csv
+ getting all vars from:output_files\1ZoneUncontrolled_x_50%_y_-50%_out.eso
+  number variables requested for output=          36
+ ReadVars Run Time=00hr 00min  0.91sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:generated_input_files\1ZoneUncontrolled_x_50%_y_-50%.mvi
+ input file:output_files\1ZoneUncontrolled_x_50%_y_-50%_out.mtr
+ output file:output_files\1ZoneUncontrolled_x_50%_y_-50%_mtr.csv
+ getting all vars from:output_files\1ZoneUncontrolled_x_50%_y_-50%_out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.28sec
+ ReadVarsESO program completed successfully.
