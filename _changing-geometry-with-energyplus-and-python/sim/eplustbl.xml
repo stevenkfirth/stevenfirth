@@ -3,13 +3,13 @@
   <state.dataHeatBal->BuildingName>Simple One Zone (Wireframe DXF)</state.dataHeatBal->BuildingName>
   <EnvironmentName>RUN PERIOD 1</EnvironmentName>
   <WeatherFileLocationTitle>San Francisco Intl Ap CA USA TMY3 WMO#=724940</WeatherFileLocationTitle>
-  <ProgramVersion>EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.08.26 06:39</ProgramVersion>
+  <ProgramVersion>EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.08.31 12:18</ProgramVersion>
   <SimulationTimestamp>
     <Date>
-      2022-08-26
+      2022-08-31
     </Date>
     <Time>
-      06:39:20
+      12:18:22
     </Time>
   </SimulationTimestamp>
 
@@ -1009,7 +1009,7 @@
   <for>Entire Facility</for>
   <General>
     <name>Value</name>
-    <ProgramVersionAndBuild>EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.08.26 06:39</ProgramVersionAndBuild>
+    <ProgramVersionAndBuild>EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.08.31 12:18</ProgramVersionAndBuild>
     <Runperiod>RUN PERIOD 1</Runperiod>
     <WeatherFile>San Francisco Intl Ap CA USA TMY3 WMO#=724940</WeatherFile>
     <Latitude units="deg">

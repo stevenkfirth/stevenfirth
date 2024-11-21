@@ -2,7 +2,7 @@ Material,Thermal conductivity (W/mK),Density (kg/m3),Specific heat capacity (J/k
 Cement bonded particle board,0.23,"1,100","1,000"
 Chipboard Flooring,0.13,500,"1,600"
 Concrete Deck,2.00,"2,400","1,000"
-Insulation,0.03,700,"1,000"
+Insulation,0.03,40,"1,450"
 Membrane,1.00,"1,100","1,000"
 Plasterboard,0.21,700,"1,000"
 Rainscreen,50.00,"7,800",450

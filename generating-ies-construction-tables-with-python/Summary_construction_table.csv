@@ -1,7 +1,7 @@
 Construction category,U-value (W/m2K),Thickness (m),Layers (outside to inside)
-Partition,1.88,0.075,"Plasterboard (12.5mm), Cavity (50.0mm), Plasterboard (12.5mm)"
-Ceiling,1.05,0.283,"Chipboard Flooring (20.0mm), Cavity (50.0mm), SCREED (50.0mm), Reinforced Concrete (100.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
-External Glazing,1.57,0.012,"Outer Pane (0.0mm), Cavity (12.0mm), Inner Pane (0.0mm)"
-Wall,0.26,0.209,"Rainscreen (3.0mm), Cavity (50.0mm), Insulation (81.4mm), Cement bonded particle board (12.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
-Roof,0.18,0.317,"Insulation (154.4mm), Membrane (0.1mm), Concrete Deck (100.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
 Ground Floor,0.22,0.268,"Insulation (98.2mm), Reinforced Concrete (100.0mm), Cavity (50.0mm), Chipboard Flooring (20.0mm)"
+Ceiling,1.05,0.283,"Chipboard Flooring (20.0mm), Cavity (50.0mm), SCREED (50.0mm), Reinforced Concrete (100.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
+Wall,0.26,0.209,"Rainscreen (3.0mm), Cavity (50.0mm), Insulation (81.4mm), Cement bonded particle board (12.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
+External Glazing,1.57,0.012,"Outer Pane (0.0mm), Cavity (12.0mm), Inner Pane (0.0mm)"
+Partition,1.88,0.075,"Plasterboard (12.5mm), Cavity (50.0mm), Plasterboard (12.5mm)"
+Roof,0.18,0.317,"Insulation (154.4mm), Membrane (0.1mm), Concrete Deck (100.0mm), Cavity (50.0mm), Plasterboard (12.5mm)"
