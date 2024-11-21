@@ -1,0 +1,36 @@
+Energy Demand Summary
+,,Total
+Space heat demand,kWh/m2,0.203338
+Space cool demand,kWh/m2,0
+
+Energy Supply Summary
+,kWh,timestep,month,day,hour of day
+Peak half-hour consumption (electricity),3.227396,4,JAN,1,5.0
+
+,Total,_unmet_demand,mains elec
+Consumption,kWh,1.009949,21.559062
+Generation,kWh,0,0
+Generation to consumption (immediate excl. diverter),kWh,0,0
+Generation to storage,kWh,0,0
+Generation to diverter,kWh,0,0
+Generation to grid (export),kWh,0,0
+Storage to consumption,kWh,0,0
+Grid to storage,kWh,0,0
+Grid to consumption (import),kWh,1.009949,21.559062
+Net import,kWh,1.009949,21.559062
+Storage round-trip efficiency,ratio,DIV/0,DIV/0
+
+Delivered Energy Summary
+Delivered energy by end-use (below) and fuel (right) [kWh/m2],total,mains elec
+total,0.269488,0.269488
+IES,0.0225,0.0225
+cooking,0.04075,0.04075
+lighting,0.0029,0.0029
+immersion,0,0
+main,0.203338,0.203338
+
+Hot water system,Overall CoP,Daily HW demand ([kWh] 75th percentile),HW cylinder volume (litres)
+hw cylinder,DIV/0,5.170626,80.0
+
+Space heating system,Overall CoP
+main,1.0
