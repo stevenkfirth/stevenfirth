@@ -1,0 +1,27 @@
+$ TEXTURE .TXT file created by ModelIT
+
+ SURFACE,   BRCK005/PLST000,       External wall
+ SURFACE,   PLST000/PLST000,  Internal partition
+ SURFACE,   ROOF005/WOOD002,                Roof
+ SURFACE,   CNCR002/CNCR002,Ground/exposed floor
+ SURFACE,   WOOD003/BRCK013,Internal floor/ceiling
+ SURFACE,           WOOD004,                Door
+ SURFACE,           GLAS008,    External glazing
+ SURFACE,           GLAS008,    Internal glazing
+ SURFACE,           GLAS008,            Skylight
+ SURFACE,            GRND003,                 Road
+ SURFACE,            CNCR001,              Parking
+ SURFACE,            GLAS001,       Hard landscape
+ SURFACE,            CNCR002, Pavement sidewalk private
+ SURFACE,            GRND004, Pervious hard landscape
+ SURFACE,            FLAT007,                 Turf
+ SURFACE,            VEGT001,     Mixed vegetation
+ SURFACE,            FLAT005,                 Tree
+ SURFACE,            FLAT005,      Vegetated shade
+ SURFACE,            FLAT008,               Shrubs
+ SURFACE,            VEGT002,         Ground cover
+ SURFACE,             WAT002,             Wetlands
+ SURFACE,             WAT001,                Water
+ SURFACE,            FLAT004,          Local shade
+ SURFACE,            FLAT003,  Topographical shade
+END

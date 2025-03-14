@@ -1,0 +1,134 @@
+{
+    "kiva_object_types": [
+      {
+        "cereal_class_version": 1,
+        "id": "KIVA0001",
+        "description": "Edge slab insulation",
+        "ground_surface_reflectance": 0.20000000000000001,
+        "ground_snow_reflected_daylight_modifier": 2,
+        "wall_height_above_grade": 0,
+        "wall_depth_below_slab": 1,
+        "footing_depth": 0.30000000000000004,
+        "footing_width": 0.80000000000000004,
+        "footing_material_id": "",
+        "footing_wall_construction_id": "",
+        "custom_blocks": [],
+        "interior_horizontal_insulation_details": {
+          "cereal_class_version": 1,
+          "is_enabled": true,
+          "width": 1.5,
+          "depth": 0,
+          "thickness": 0.10000000000000001,
+          "insulation_material_id": "STD_EPS"
+        },
+        "interior_vertical_insulation_details": {
+          "is_enabled": false,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_horizontal_insulation_details": {
+          "is_enabled": false,
+          "width": 0,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_vertical_insulation_details": {
+          "is_enabled": false,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        }
+      },
+      {
+        "id": "KIVA0002",
+        "description": "Vertical footing insulation",
+        "ground_surface_reflectance": 0.20000000000000001,
+        "ground_snow_reflected_daylight_modifier": 2,
+        "wall_height_above_grade": 0,
+        "wall_depth_below_slab": 1,
+        "footing_depth": 0.30000000000000004,
+        "footing_width": 0.80000000000000004,
+        "footing_material_id": "",
+        "footing_wall_construction_id": "",
+        "custom_blocks": [],
+        "interior_horizontal_insulation_details": {
+          "is_enabled": false,
+          "width": 0,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "interior_vertical_insulation_details": {
+          "is_enabled": false,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_horizontal_insulation_details": {
+          "is_enabled": false,
+          "width": 0,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_vertical_insulation_details": {
+          "is_enabled": true,
+          "depth": 1,
+          "thickness": 0.10000000000000001,
+          "insulation_material_id": "STD_EPS"
+        }
+      },
+      {
+        "id": "KIVA0003",
+        "description": "Edge slab insulation with basement block",
+        "ground_surface_reflectance": 0.20000000000000001,
+        "ground_snow_reflected_daylight_modifier": 2,
+        "wall_height_above_grade": 1,
+        "wall_depth_below_slab": 1,
+        "footing_depth": 0.5,
+        "footing_width": 1,
+        "footing_material_id": "CCD",
+        "footing_wall_construction_id": "",
+        "custom_blocks": [
+          {
+            "cereal_class_version": 1,
+            "id": "0",
+            "name": "Backfill",
+            "x_pos": 0.30000000000000004,
+            "z_pos": 1,
+            "depth": 2.5,
+            "width": 2,
+            "material_id": "SLSD1"
+          }
+        ],
+        "interior_horizontal_insulation_details": {
+          "is_enabled": true,
+          "width": 1.5,
+          "depth": 0,
+          "thickness": 0.10000000000000001,
+          "insulation_material_id": "STD_EPS"
+        },
+        "interior_vertical_insulation_details": {
+          "is_enabled": false,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_horizontal_insulation_details": {
+          "is_enabled": false,
+          "width": 0,
+          "depth": 0,
+          "thickness": 0,
+          "insulation_material_id": "STD_EPS"
+        },
+        "exterior_vertical_insulation_details": {
+          "is_enabled": true,
+          "depth": 2,
+          "thickness": 0.10000000000000001,
+          "insulation_material_id": "STD_EPS"
+        }
+      }
+    ]
+}

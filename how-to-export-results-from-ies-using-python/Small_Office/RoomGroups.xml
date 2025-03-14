@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rgs_library><rgs_schemes><rgs_scheme name="Storeys"><rgs_group colour="16414840">All rooms</rgs_group></rgs_scheme><rgs_scheme name="DHW Zones"><rgs_group colour="16711680">DHW Zone 1</rgs_group><rgs_group colour="11447982">Non-ApHVAC spaces</rgs_group><rgs_group colour="14474460">Plenums and Voids</rgs_group></rgs_scheme><rgs_scheme name="Ground Floor - Varying Char-Dimensions"><rgs_group colour="16414840">All rooms</rgs_group><rgs_group colour="16777215">Building A - Perimeter</rgs_group></rgs_scheme></rgs_schemes></rgs_library>

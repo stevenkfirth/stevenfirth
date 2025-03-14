@@ -1,0 +1,6 @@
+  APCALC, CIBSE Heat Loss & Heat Gain,
+ VERSION,4, 0, 
+HEATGAIN,1, 1, 1, 0, 0, 4, 8, 1, 
+HEATLOSS,1, 1, 1, 0, 1, 12, 0, 0, 0, 1, 0, 1, 
+RESULTS, Untitled,
+     END,

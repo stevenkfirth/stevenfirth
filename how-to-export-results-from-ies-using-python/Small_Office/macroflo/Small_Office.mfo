@@ -1,0 +1,7 @@
+FILE    ,MacroFlo Opening Types File,
+VERSION , 7, 0, 0,
+PARS , 1,
+OPTYPE  , XTRN0000, XTRN0000, External window opening, 0,
+   0.150000,  0.00,    0,    0.00,    0,    0.00,    0.000,       5,
+RULE    ,IF      ,TI      ,>       ,    0.000,    0.00,       2.0,OFF     ,
+END

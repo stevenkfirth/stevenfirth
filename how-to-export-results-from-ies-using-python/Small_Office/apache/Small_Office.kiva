@@ -1,0 +1,15 @@
+{
+"$schema": "./ground-slab.schema.json",
+"settings": {
+"soilDensity": 1510,
+"soilConductivity": 0.86399999999999999,
+"soilSpecificHeat": 1260,
+"groundSolarAbsorptivity": 0.80000000000000004,
+"groundSurfaceRoughness": 0.0050000000000000001,
+"groundThermalAbsorptivity": 0.80000000000000004,
+"farFieldWidth": 40,
+"deepGroundBoundaryCondition": "ZeroFlux",
+"deepGroundDepth": 40
+},
+"foundations": {}
+}

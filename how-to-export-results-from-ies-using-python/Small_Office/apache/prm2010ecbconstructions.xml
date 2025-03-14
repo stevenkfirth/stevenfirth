@@ -1,0 +1,714 @@
+<ConstructionUValues Units="IP">
+	<ClimateZone ID="1">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.063"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.218"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.065"/>
+				<Application Name="Residential" UValue="0.065"/>		
+				<Application Name="Semiheated" UValue="0.167"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.034"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.081"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.580"/>
+				<Application Name="Residential" UValue="0.151"/>		
+				<Application Name="Semiheated" UValue="0.580"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.093"/>
+				<Application Name="Residential" UValue="0.093"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.124"/>
+				<Application Name="Residential" UValue="0.124"/>		
+				<Application Name="Semiheated" UValue="0.352"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.089"/>
+				<Application Name="Residential" UValue="0.089"/>		
+				<Application Name="Semiheated" UValue="0.292"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="1.140"/>
+				<Application Name="Residential" CFactor="1.140"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.322"/>
+				<Application Name="Residential" UValue="0.322"/>		
+				<Application Name="Semiheated" UValue="0.322"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.350"/>
+				<Application Name="Residential" UValue="0.350"/>		
+				<Application Name="Semiheated" UValue="0.350"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.282"/>
+				<Application Name="Residential" UValue="0.282"/>		
+				<Application Name="Semiheated" UValue="0.282"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.730"/>
+				<Application Name="Residential" FFactor="0.730"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="1.020"/>
+				<Application Name="Residential" FFactor="1.020"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.700"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="1.450"/>
+				<Application Name="Residential" UValue="1.450"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>
+	<ClimateZone ID="2">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.218"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.055"/>
+				<Application Name="Residential" UValue="0.055"/>		
+				<Application Name="Semiheated" UValue="0.097"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.081"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.151"/>
+				<Application Name="Residential" UValue="0.123"/>		
+				<Application Name="Semiheated" UValue="0.580"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.093"/>
+				<Application Name="Residential" UValue="0.093"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.124"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.089"/>
+				<Application Name="Residential" UValue="0.089"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="1.140"/>
+				<Application Name="Residential" CFactor="1.140"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.107"/>
+				<Application Name="Residential" UValue="0.087"/>		
+				<Application Name="Semiheated" UValue="0.322"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.052"/>
+				<Application Name="Residential" UValue="0.052"/>		
+				<Application Name="Semiheated" UValue="0.069"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.051"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.066"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.730"/>
+				<Application Name="Residential" FFactor="0.730"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="1.020"/>
+				<Application Name="Residential" FFactor="1.020"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.700"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="1.450"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>	
+	<ClimateZone ID="3">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.173"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.055"/>
+				<Application Name="Residential" UValue="0.055"/>		
+				<Application Name="Semiheated" UValue="0.097"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.053"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.123"/>
+				<Application Name="Residential" UValue="0.104"/>		
+				<Application Name="Semiheated" UValue="0.580"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.084"/>
+				<Application Name="Residential" UValue="0.084"/>		
+				<Application Name="Semiheated" UValue="0.133"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.084"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.089"/>
+				<Application Name="Residential" UValue="0.089"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="1.140"/>
+				<Application Name="Residential" CFactor="1.140"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.107"/>
+				<Application Name="Residential" UValue="0.087"/>		
+				<Application Name="Semiheated" UValue="0.322"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.052"/>
+				<Application Name="Residential" UValue="0.052"/>		
+				<Application Name="Semiheated" UValue="0.069"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.051"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.066"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.730"/>
+				<Application Name="Residential" FFactor="0.730"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.900"/>
+				<Application Name="Residential" FFactor="0.900"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.700"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="1.450"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>	
+	<ClimateZone ID="4">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.173"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.055"/>
+				<Application Name="Residential" UValue="0.055"/>		
+				<Application Name="Semiheated" UValue="0.097"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.053"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.104"/>
+				<Application Name="Residential" UValue="0.090"/>		
+				<Application Name="Semiheated" UValue="0.580"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.084"/>
+				<Application Name="Residential" UValue="0.084"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.0124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.089"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="1.140"/>
+				<Application Name="Residential" CFactor="0.119"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.087"/>
+				<Application Name="Residential" UValue="0.074"/>		
+				<Application Name="Semiheated" UValue="0.137"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.038"/>
+				<Application Name="Residential" UValue="0.038"/>		
+				<Application Name="Semiheated" UValue="0.069"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.033"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.066"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.730"/>
+				<Application Name="Residential" FFactor="0.540"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.860"/>
+				<Application Name="Residential" FFactor="0.860"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.700"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="1.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>
+	<ClimateZone ID="5">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.119"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.055"/>
+				<Application Name="Residential" UValue="0.055"/>		
+				<Application Name="Semiheated" UValue="0.083"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.053"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.090"/>
+				<Application Name="Residential" UValue="0.080"/>		
+				<Application Name="Semiheated" UValue="0.151"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.069"/>
+				<Application Name="Residential" UValue="0.069"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.051"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="0.119"/>
+				<Application Name="Residential" CFactor="0.119"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.074"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.137"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.038"/>
+				<Application Name="Residential" UValue="0.038"/>		
+				<Application Name="Semiheated" UValue="0.052"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.033"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.051"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.730"/>
+				<Application Name="Residential" FFactor="0.540"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.860"/>
+				<Application Name="Residential" FFactor="0.860"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>
+	<ClimateZone ID="6">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.093"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.049"/>
+				<Application Name="Residential" UValue="0.049"/>		
+				<Application Name="Semiheated" UValue="0.072"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.034"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.080"/>
+				<Application Name="Residential" UValue="0.071"/>		
+				<Application Name="Semiheated" UValue="0.151"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.069"/>
+				<Application Name="Residential" UValue="0.069"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.064"/>		
+				<Application Name="Semiheated" UValue="0.124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.051"/>
+				<Application Name="Residential" UValue="0.051"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="0.119"/>
+				<Application Name="Residential" CFactor="0.119"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.057"/>		
+				<Application Name="Semiheated" UValue="0.137"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.038"/>
+				<Application Name="Residential" UValue="0.032"/>		
+				<Application Name="Semiheated" UValue="0.052"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.033"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.051"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.540"/>
+				<Application Name="Residential" FFactor="0.520"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.860"/>
+				<Application Name="Residential" FFactor="0.688"/>		
+				<Application Name="Semiheated" FFactor="1.020"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.700"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>	
+	<ClimateZone ID="7">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.093"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.049"/>
+				<Application Name="Residential" UValue="0.049"/>		
+				<Application Name="Semiheated" UValue="0.072"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.027"/>
+				<Application Name="Residential" UValue="0.027"/>		
+				<Application Name="Semiheated" UValue="0.034"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.071"/>
+				<Application Name="Residential" UValue="0.071"/>		
+				<Application Name="Semiheated" UValue="0.123"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.057"/>
+				<Application Name="Residential" UValue="0.057"/>		
+				<Application Name="Semiheated" UValue="0.113"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.042"/>		
+				<Application Name="Semiheated" UValue="0.124"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.051"/>
+				<Application Name="Residential" UValue="0.051"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="0.119"/>
+				<Application Name="Residential" CFactor="0.092"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.051"/>		
+				<Application Name="Semiheated" UValue="0.107"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.038"/>
+				<Application Name="Residential" UValue="0.032"/>		
+				<Application Name="Semiheated" UValue="0.052"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.033"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.051"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.520"/>
+				<Application Name="Residential" FFactor="0.052"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.843"/>
+				<Application Name="Residential" FFactor="0.688"/>		
+				<Application Name="Semiheated" FFactor="0.900"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="1.450"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>
+	<ClimateZone ID="8">
+		<Roofs>
+			<Construction Name="Insulation Entirely above Deck">
+				<Application Name="Non Residential" UValue="0.048"/>
+				<Application Name="Residential" UValue="0.048"/>		
+				<Application Name="Semiheated" UValue="0.063"/>					
+			</Construction>
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.035"/>
+				<Application Name="Residential" UValue="0.035"/>		
+				<Application Name="Semiheated" UValue="0.065"/>					
+			</Construction>	
+			<Construction Name="Attic and Other">
+				<Application Name="Non Residential" UValue="0.021"/>
+				<Application Name="Residential" UValue="0.021"/>		
+				<Application Name="Semiheated" UValue="0.034"/>					
+			</Construction>	
+		</Roofs>	
+		<Walls>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.071"/>
+				<Application Name="Residential" UValue="0.052"/>		
+				<Application Name="Semiheated" UValue="0.104"/>					
+			</Construction>		
+			<Construction Name="Metal Building">
+				<Application Name="Non Residential" UValue="0.057"/>
+				<Application Name="Residential" UValue="0.057"/>		
+				<Application Name="Semiheated" UValue="0.104"/>					
+			</Construction>	
+			<Construction Name="Steel-Framed">
+				<Application Name="Non Residential" UValue="0.064"/>
+				<Application Name="Residential" UValue="0.037"/>		
+				<Application Name="Semiheated" UValue="0.084"/>					
+			</Construction>	
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.036"/>
+				<Application Name="Residential" UValue="0.036"/>		
+				<Application Name="Semiheated" UValue="0.089"/>					
+			</Construction>		
+		</Walls>
+		<BelowGradeWalls>
+			<Construction Name="Wall_BelowGrade">
+				<Application Name="Non Residential" CFactor="0.119"/>
+				<Application Name="Residential" CFactor="0.075"/>		
+				<Application Name="Semiheated" CFactor="1.140"/>					
+			</Construction>	
+		</BelowGradeWalls>
+		<Floors>
+			<Construction Name="Mass">
+				<Application Name="Non Residential" UValue="0.057"/>
+				<Application Name="Residential" UValue="0.051"/>		
+				<Application Name="Semiheated" UValue="0.087"/>					
+			</Construction>	
+			<Construction Name="Steel-Joist">
+				<Application Name="Non Residential" UValue="0.032"/>
+				<Application Name="Residential" UValue="0.032"/>		
+				<Application Name="Semiheated" UValue="0.052"/>					
+			</Construction>		
+			<Construction Name="Wood-Framed and Other">
+				<Application Name="Non Residential" UValue="0.033"/>
+				<Application Name="Residential" UValue="0.033"/>		
+				<Application Name="Semiheated" UValue="0.033"/>					
+			</Construction>	
+		</Floors>
+		<SOGFloors>
+			<Construction Name="Unheated">
+				<Application Name="Non Residential" FFactor="0.520"/>
+				<Application Name="Residential" FFactor="0.510"/>		
+				<Application Name="Semiheated" FFactor="0.730"/>					
+			</Construction>	
+			<Construction Name="Heated">
+				<Application Name="Non Residential" FFactor="0.688"/>
+				<Application Name="Residential" FFactor="0.688"/>		
+				<Application Name="Semiheated" FFactor="0.900"/>					
+			</Construction>			
+		</SOGFloors>		
+		<Doors>
+			<Construction Name="Swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="0.700"/>					
+			</Construction>	
+			<Construction Name="Non-swinging">
+				<Application Name="Non Residential" UValue="0.500"/>
+				<Application Name="Residential" UValue="0.500"/>		
+				<Application Name="Semiheated" UValue="0.500"/>					
+			</Construction>			
+		</Doors>		
+	</ClimateZone>	
+</ConstructionUValues>

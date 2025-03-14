@@ -1,0 +1,485 @@
+<BPRMInputs xmlns = "http://www.iesve.com/BPRMInputs">
+  <Reports>
+    <Individual text = "Name"/>
+    <Company text = "IES"/>
+    <SimProg software = "Integrated Environmental Solutions" version = "Virtual Environment version 6.1"/>
+    <EnergyCode text = "ASHRAE 90.1 - 2007 Appendix G"/>
+    <Address building = "Building" city = "City" zipcode = "Zip" country = "Country"/>
+  </Reports>
+  <BPRM2010>
+    <Reports>
+      <SitePermitSoftware>
+        <Site>
+          <Title></Title>
+          <Address1></Address1>
+          <Address2></Address2>
+          <City></City>
+          <State></State>
+          <ZipCode></ZipCode>
+        </Site>
+        <Permit>
+          <PermitNo></PermitNo>
+          <Date></Date>
+        </Permit>
+        <Software>
+          <Program></Program>
+          <Program2></Program2>
+        </Software>
+      </SitePermitSoftware>
+      <Owner>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Owner>
+      <Designer>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Designer>
+      <Florida>
+        <Description></Description>
+        <Jurisdiction></Jurisdiction>
+        <Class></Class>
+        <BuildingFloorArea></BuildingFloorArea>
+        <NumStories></NumStories>
+      </Florida>
+      <FloridaCertifications>
+        <PreparedBy></PreparedBy>
+        <PreparedByDate></PreparedByDate>
+        <BuildingOfficial></BuildingOfficial>
+        <BuildingOfficialDate></BuildingOfficialDate>
+        <OwnerAgent></OwnerAgent>
+        <OwnerAgentDate></OwnerAgentDate>
+        <Architect></Architect>
+        <ArchitectRegNo></ArchitectRegNo>
+        <ElectricalDesigner></ElectricalDesigner>
+        <ElectricalDesignerRegNo></ElectricalDesignerRegNo>
+        <LightingDesigner></LightingDesigner>
+        <LightingDesignerRegNo></LightingDesignerRegNo>
+        <MechanicalDesigner></MechanicalDesigner>
+        <MechanicalDesignerRegNo></MechanicalDesignerRegNo>
+        <PlumbingDesigner></PlumbingDesigner>
+        <PlumbingDesignerRegNo></PlumbingDesignerRegNo>
+      </FloridaCertifications>
+      <Checklist>
+        <Constructions>
+          <Result input = "Shading devices" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </Constructions>
+        <MEP>
+          <Result input = "Other Lighting Controls" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </MEP>
+        <HVAC>
+          <Result input = "Primary HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Other HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan supply power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Economiser control" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Demand control ventilation" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip cooling efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip heating efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chiller" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chilled water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Boiler" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Hot water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Cooling tower" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Condenser water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </HVAC>
+      </Checklist>
+    </Reports>
+  </BPRM2010>
+  <BPRM2013>
+    <Reports>
+      <SitePermitSoftware>
+        <Site>
+          <Title></Title>
+          <Address1></Address1>
+          <Address2></Address2>
+          <City></City>
+          <State></State>
+          <ZipCode></ZipCode>
+        </Site>
+        <Permit>
+          <PermitNo></PermitNo>
+          <Date></Date>
+        </Permit>
+        <Software>
+          <Program></Program>
+          <Program2></Program2>
+        </Software>
+      </SitePermitSoftware>
+      <Owner>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Owner>
+      <Designer>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Designer>
+      <Florida>
+        <Description></Description>
+        <Jurisdiction></Jurisdiction>
+        <Class></Class>
+        <BuildingFloorArea></BuildingFloorArea>
+        <NumStories></NumStories>
+      </Florida>
+      <FloridaCertifications>
+        <PreparedBy></PreparedBy>
+        <PreparedByDate></PreparedByDate>
+        <BuildingOfficial></BuildingOfficial>
+        <BuildingOfficialDate></BuildingOfficialDate>
+        <OwnerAgent></OwnerAgent>
+        <OwnerAgentDate></OwnerAgentDate>
+        <Architect></Architect>
+        <ArchitectRegNo></ArchitectRegNo>
+        <ElectricalDesigner></ElectricalDesigner>
+        <ElectricalDesignerRegNo></ElectricalDesignerRegNo>
+        <LightingDesigner></LightingDesigner>
+        <LightingDesignerRegNo></LightingDesignerRegNo>
+        <MechanicalDesigner></MechanicalDesigner>
+        <MechanicalDesignerRegNo></MechanicalDesignerRegNo>
+        <PlumbingDesigner></PlumbingDesigner>
+        <PlumbingDesignerRegNo></PlumbingDesignerRegNo>
+      </FloridaCertifications>
+      <Checklist>
+        <Constructions>
+          <Result input = "Shading devices" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </Constructions>
+        <MEP>
+          <Result input = "Other Lighting Controls" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </MEP>
+        <HVAC>
+          <Result input = "Primary HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Other HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan supply power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Economiser control" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Demand control ventilation" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip cooling efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip heating efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chiller" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chilled water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Boiler" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Hot water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Cooling tower" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Condenser water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </HVAC>
+      </Checklist>
+    </Reports>
+  </BPRM2013>
+  <BPRM2016>
+    <Reports>
+      <SitePermitSoftware>
+        <Site>
+          <Title></Title>
+          <Address1></Address1>
+          <Address2></Address2>
+          <City></City>
+          <State></State>
+          <ZipCode></ZipCode>
+        </Site>
+        <Permit>
+          <PermitNo></PermitNo>
+          <Date></Date>
+        </Permit>
+        <Software>
+          <Program></Program>
+          <Program2></Program2>
+        </Software>
+      </SitePermitSoftware>
+      <Owner>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Owner>
+      <Designer>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Designer>
+      <Florida>
+        <Description></Description>
+        <Jurisdiction></Jurisdiction>
+        <Class></Class>
+        <BuildingFloorArea></BuildingFloorArea>
+        <NumStories></NumStories>
+      </Florida>
+      <FloridaCertifications>
+        <PreparedBy></PreparedBy>
+        <PreparedByDate></PreparedByDate>
+        <BuildingOfficial></BuildingOfficial>
+        <BuildingOfficialDate></BuildingOfficialDate>
+        <OwnerAgent></OwnerAgent>
+        <OwnerAgentDate></OwnerAgentDate>
+        <Architect></Architect>
+        <ArchitectRegNo></ArchitectRegNo>
+        <ElectricalDesigner></ElectricalDesigner>
+        <ElectricalDesignerRegNo></ElectricalDesignerRegNo>
+        <LightingDesigner></LightingDesigner>
+        <LightingDesignerRegNo></LightingDesignerRegNo>
+        <MechanicalDesigner></MechanicalDesigner>
+        <MechanicalDesignerRegNo></MechanicalDesignerRegNo>
+        <PlumbingDesigner></PlumbingDesigner>
+        <PlumbingDesignerRegNo></PlumbingDesignerRegNo>
+      </FloridaCertifications>
+      <Checklist>
+        <Constructions>
+          <Result input = "Shading devices" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </Constructions>
+        <MEP>
+          <Result input = "Other Lighting Controls" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </MEP>
+        <HVAC>
+          <Result input = "Primary HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Other HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan supply power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Economiser control" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Demand control ventilation" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip cooling efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip heating efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chiller" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chilled water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Boiler" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Hot water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Cooling tower" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Condenser water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </HVAC>
+      </Checklist>
+    </Reports>
+  </BPRM2016>
+  <BPRM2019>
+    <Reports>
+      <SitePermitSoftware>
+        <Site>
+          <Title></Title>
+          <Address1></Address1>
+          <Address2></Address2>
+          <City></City>
+          <State></State>
+          <ZipCode></ZipCode>
+        </Site>
+        <Permit>
+          <PermitNo></PermitNo>
+          <Date></Date>
+        </Permit>
+        <Software>
+          <Program></Program>
+          <Program2></Program2>
+        </Software>
+      </SitePermitSoftware>
+      <Owner>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Owner>
+      <Designer>
+        <FirstName></FirstName>
+        <LastName></LastName>
+        <Company></Company>
+        <Address1></Address1>
+        <Address2></Address2>
+        <City></City>
+        <State></State>
+        <ZipCode></ZipCode>
+        <PhoneNumber></PhoneNumber>
+        <EMail></EMail>
+      </Designer>
+      <Florida>
+        <Description></Description>
+        <Jurisdiction></Jurisdiction>
+        <Class></Class>
+        <BuildingFloorArea></BuildingFloorArea>
+        <NumStories></NumStories>
+      </Florida>
+      <FloridaCertifications>
+        <PreparedBy></PreparedBy>
+        <PreparedByDate></PreparedByDate>
+        <BuildingOfficial></BuildingOfficial>
+        <BuildingOfficialDate></BuildingOfficialDate>
+        <OwnerAgent></OwnerAgent>
+        <OwnerAgentDate></OwnerAgentDate>
+        <Architect></Architect>
+        <ArchitectRegNo></ArchitectRegNo>
+        <ElectricalDesigner></ElectricalDesigner>
+        <ElectricalDesignerRegNo></ElectricalDesignerRegNo>
+        <LightingDesigner></LightingDesigner>
+        <LightingDesignerRegNo></LightingDesignerRegNo>
+        <MechanicalDesigner></MechanicalDesigner>
+        <MechanicalDesignerRegNo></MechanicalDesignerRegNo>
+        <PlumbingDesigner></PlumbingDesigner>
+        <PlumbingDesignerRegNo></PlumbingDesignerRegNo>
+      </FloridaCertifications>
+      <Checklist>
+        <Constructions>
+          <Result input = "Shading devices" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </Constructions>
+        <MEP>
+          <Result input = "Other Lighting Controls" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </MEP>
+        <HVAC>
+          <Result input = "Primary HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Other HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan supply power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Fan power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Economiser control" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Demand control ventilation" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip cooling efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Unitary equip heating efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chiller" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Chilled water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Boiler" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Hot water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Cooling tower" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+          <Result input = "Condenser water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+        </HVAC>
+      </Checklist>
+    </Reports>
+  </BPRM2019>
+  <Tariffs>
+    <Energy type = "Electricity">
+      <Cost units = "MBtu" currency = "$">0.029</Cost>
+      <Cost units = "MMBtu" currency = "$">0.029</Cost>
+      <Cost units = "MBH" currency = "$">0.000029</Cost>
+      <Cost units = "kWh" currency = "$">0.10</Cost>
+      <Cost units = "MWh" currency = "$">100</Cost>
+    </Energy>
+    <Energy type = "Gas">
+      <Cost units = "MBtu" currency = "$">0.0088</Cost>
+      <Cost units = "MMBtu" currency = "$">0.0088</Cost>
+      <Cost units = "MBH" currency = "$">0.000088</Cost>
+      <Cost units = "kWh" currency = "$">0.03</Cost>
+      <Cost units = "MWh" currency = "$">30</Cost>
+    </Energy>
+    <Energy type = "Coal">
+      <Cost units = "MBtu" currency = "$">0.0205</Cost>
+      <Cost units = "MMBtu" currency = "$">0.0205</Cost>
+      <Cost units = "MBH" currency = "$">0.0000205</Cost>
+      <Cost units = "kWh" currency = "$">0.07</Cost>
+      <Cost units = "MWh" currency = "$">70</Cost>
+    </Energy>
+    <Energy type = "Oil">
+      <Cost units = "MBtu" currency = "$">0.0205</Cost>
+      <Cost units = "MMBtu" currency = "$">0.0205</Cost>
+      <Cost units = "MBH" currency = "$">0.0000205</Cost>
+      <Cost units = "kWh" currency = "$">0.07</Cost>
+      <Cost units = "MWh" currency = "$">70</Cost>
+    </Energy>
+  </Tariffs>
+  <Inputs>
+    <ExteriorLighting>
+      <LPD p = "2.2" b = "2.2" units = "7"/><!--W/m2 integer maps to units index in unitsmfc dll (see udefs.h) -->
+    </ExteriorLighting>
+    <ChilledWaterPumps>
+      <PumpPowerDensity p = "348" b = "348" units = "63"/><!--express as w/l/s....originally expressed as 0.349 kW/l/s-->
+      <FlowReturnDT p = "9" b = "9" units = "6"/><!--VT_TEMPERATURE -->
+    </ChilledWaterPumps>
+    <InteriorVentilation>
+      <MaxDeltaT p = "11.1" b = "11.1" units = "6"/><!--VT_TEMPERATURE -->
+      <SizingFactor p = "1.15" b = "1.15"/>
+      <MinimumTurndownRate p = "2.15" b = "2.15" units = "15"/><!--VT_VOLUMEFLOWRATE_LPERS_M2 -->
+      <ResidentialFanPower p = "1.7" b = "1.7" units = "63"/><!--kW/1000l/s can be expressed as m3/s or w/l/s-->
+    </InteriorVentilation>
+    <ExtractFans>
+      <FanData type = "commercial kitchen">
+        <FractionZoneFloorAreaKitchen p = "0.25" b = "0.25"/>
+        <AirChangeRate p = "20" b = "20"/><!--not unit sensitive units = "ach" -->
+        <FanPower p = "1.7" b = "1.7" units = "63"/>
+      </FanData>
+      <FanData type = "residential kitchen">
+        <FractionZoneFloorAreaKitchen p = "0.25" b = "0.25"/>
+        <AirChangeRate p = "20" b = "20"/><!--not unit sensitive units = "ach" -->
+        <FanPower p = "1.7" b = "1.7" units = "63"/>
+      </FanData>
+      <FanData type = "retail catering">
+        <FractionZoneFloorAreaKitchen p = "0.25" b = "0.25"/>
+        <AirChangeRate p = "20" b = "20"/><!--not unit sensitive units = "ach" -->
+        <FanPower p = "1.7" b = "1.7" units = "63"/>
+      </FanData>
+      <FanPower type = "toilets" p = "1.7" b = "1.7" units = "63"/>
+      <FanPower type = "residential bathroom" p = "1.7" b = "1.7" units = "63"/>
+      <FanPower type = "commercial parking garage" p = "1.7" b = "1.7" units = "63"/>
+      <FanPower type = "residential parking garage" p = "1.7" b = "1.7" units = "63"/>
+    </ExtractFans>
+    <ElevatorsEscalators>
+      <TotalNumberElevators type = "general" p = "2" b = "2"/>
+      <AnnualEnergyElevator type = "general" p = "300" b = "300" units = "85"/>
+      <PeakEnergyElevator type = "general" p = "5" pprofileid = "ON" b = "5" bprofileid = "ON" pselectedoption = "0" units = "85"/>
+    </ElevatorsEscalators>
+    <NewExistCon>
+      <Result new = "100" exist = "0"/>
+    </NewExistCon>
+    <Constructions>
+      <Result input = "Shading devices" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+    </Constructions>
+    <MEP>
+      <Result input = "Other Lighting Controls" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+    </MEP>
+    <HVAC>
+      <Result input = "Primary HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Other HVAC system" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Fan supply power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Fan power" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Economiser control" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Demand control ventilation" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Unitary equip cooling efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Unitary equip heating efficiency" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Chiller" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Chilled water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Boiler" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Hot water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Cooling tower" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+      <Result input = "Condenser water loop and pump" pdescription = "" pinput = "" bdescription = "" binput = ""/>
+    </HVAC>
+  </Inputs>
+</BPRMInputs>

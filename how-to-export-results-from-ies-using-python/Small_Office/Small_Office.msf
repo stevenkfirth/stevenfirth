@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<vesettings xmlns="http://www.iesve.com/VECore"><settinggroup name="vistasettings"><applyvarlinecolorpersistencetoallprojects type="VT_BOOL">0</applyvarlinecolorpersistencetoallprojects><floorplanheight type="VT_R8">1.5</floorplanheight><floorplanvarkeyformat type="VT_INT">0</floorplanvarkeyformat><tm52optempvars type="VT_BOOL">1</tm52optempvars></settinggroup></vesettings>
