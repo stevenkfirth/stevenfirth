@@ -49,13 +49,13 @@ elif not dir_current_project in fp_in:
     root.destroy()
     quit()
     
-# 4. Get room data
+# 3. Get room data
 # - a dictionary {room_id: room_general_data_dict}
 realmodel = current_project.models[0]
 bodies = realmodel.get_bodies(False)  # False means get all bodies
 room_data_dict = {body.id: body.get_room_data().get_general() for body in bodies}
     
-# 5. Load temperature data
+# 4. Load temperature data
 # - a dictionary {room_id: list of (hourly) temperatures}
 with iesve.ResultsReader.open(fp_in) as f:
     air_temperatures_dict = { 
@@ -63,7 +63,7 @@ with iesve.ResultsReader.open(fp_in) as f:
         for room_id in f.get_room_ids()
         }
     
-# 6. Plot figure
+# 5. Plot figure
 fig, ax = plt.subplots(
     figsize = (
         6, 
