@@ -182,7 +182,10 @@ with iesve.ResultsReader.open(fp_in) as f:
         room_id = body.get_room_data().id
         #print('room_id', room_id, end = ' ')
         for surface in body.get_surfaces():
-            aps_handle = surface.get_properties()['aps_handle']
+            try:
+                aps_handle = surface.get_properties()['aps_handle']
+            except ValueError:
+                continue
             surface_id = surface.get_properties()['id']
             print(surface_id, end = ' ')
             result = {variable['display_name']: f.get_all_surface_results(room_id, aps_handle, variable['aps_varname']) for variable in variables}
@@ -204,7 +207,10 @@ with iesve.ResultsReader.open(fp_in) as f:
         room_id = body.get_room_data().id
         #print('room_id', room_id, end = ' ')
         for surface in body.get_surfaces():
-            aps_handle = surface.get_properties()['aps_handle']
+            try:
+                aps_handle = surface.get_properties()['aps_handle']
+            except ValueError:
+                continue
             surface_id = surface.get_properties()['id']
             #print('surface_id', surface_id, end = ' ')
             surface_index = surface.index
