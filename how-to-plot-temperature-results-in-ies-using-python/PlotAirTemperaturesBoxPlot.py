@@ -62,7 +62,8 @@ with iesve.ResultsReader.open(fp_in) as f:
         room_id: f.get_room_results(room_id, 'Room air temperature', 'Air temperature', 'z')
         for room_id in f.get_room_ids()
         }
-    
+air_temperatures_dict = {k:v for k,v in air_temperatures_dict.items() if not v is None}
+
 # 5. Plot figure
 fig, ax = plt.subplots(
     figsize = (
