@@ -57,7 +57,8 @@ bodies = realmodel.get_bodies(False)  # False means get all bodies
 room_data_dict = {body.id: body.get_room_data().get_general() for body in bodies}
     
 # 4. Load gain data
-# - a dictionary {variable_name: {room_id: annual_total}}
+# - a dictionary {variable_name: {room_id: annual_total_heat_gain}}
+# - this selects only room variables which have 'units_type' as "Gain"
 data = {}
 with iesve.ResultsReader.open(fp_in) as f:
     vars = f.get_variables() 
@@ -79,7 +80,7 @@ height = (0.4 * len(room_data_dict))
 if height < 2: height = 2
 if height > 4: height = 4
 #
-#height = 6 / 1920 * 1080  # set aspect ratio for publishing figure
+#height = 6 / 1920 * 1080  # fixed aspect ratio for publishing figure
 #
 fig, ax = plt.subplots(
     figsize = (
@@ -88,22 +89,22 @@ fig, ax = plt.subplots(
         ), 
     dpi = 200
     )
-positive_bottoms = [0] * len(room_data_dict)
-negative_bottoms = [0] * len(room_data_dict)
+positive_lefts = [0] * len(room_data_dict)
+negative_lefts = [0] * len(room_data_dict)
 #
 def plot_row(name, data, **kwargs):
     ""
     for i, (room_id, height) in enumerate(data.items()):
         if height > 0:
-            bottom = positive_bottoms[i]
-            positive_bottoms[i] += height
+            left = positive_lefts[i]
+            positive_lefts[i] += height
         else:
-            bottom = negative_bottoms[i]
-            negative_bottoms[i] += height
+            left = negative_lefts[i]
+            negative_lefts[i] += height
         line = ax.barh(
             i, 
             height, 
-            left = bottom, 
+            left = left, 
             label = name if i == 0 else None,
             edgecolor = 'black',
             linewidth = 0.5,
@@ -113,7 +114,7 @@ def plot_row(name, data, **kwargs):
 color_i = 0
 for i, (k,v) in enumerate(data.items()):
     for x in v.values():
-        if not math.isclose(x,0):
+        if not math.isclose(x,0):  # plot variable provided at least one annual total is non-zero
             plot_row(
                 k,
                 v, 
@@ -122,7 +123,6 @@ for i, (k,v) in enumerate(data.items()):
                 )
             color_i += 1
             break
-    #break
   
 ax.legend(
     loc='center left', 
@@ -131,8 +131,7 @@ ax.legend(
     )
 ax.set_xlabel('Annual heat gain (MWh/year)')
 ax.get_xaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))  # thousands separator
-#ax.tick_params(axis='x', which='major', labelsize=8)
-ax.set_xlim(min(negative_bottoms) - (max(positive_bottoms) - min(negative_bottoms)) * 0.05, max(positive_bottoms) + (max(positive_bottoms) - min(negative_bottoms)) * 0.05)
+ax.set_xlim(min(negative_lefts) - (max(positive_lefts) - min(negative_lefts)) * 0.05, max(positive_lefts) + (max(positive_lefts) - min(negative_lefts)) * 0.05)  # 5% margin on either side
 ax.set_yticks(range(len(room_data_dict)))
 ax.set_yticklabels([x['name'] for x in room_data_dict.values()])
 ax.set_ylabel('Room')
